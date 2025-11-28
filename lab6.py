@@ -7,8 +7,10 @@ heroes_tuple = ("Batman", "Superman", "Wonder Woman", "Flash",
 len_heroes = len(heroes_tuple)
 print("Довжина heroes_tuple:", len_heroes)
 print("Елемент з індексом 3:", heroes_tuple[3])
+
 slice_345 = heroes_tuple[3:6]
 print("Елементи 3, 4, 5:", slice_345)
+
 first_two_heroes = heroes_tuple[:2]
 print("Перші два персонажі:", first_two_heroes)
 thor_index = heroes_tuple.index("Thor")
@@ -20,7 +22,6 @@ print("Відсортований список:", sorted_C)
 
 a_list = [1, "hello", [1, 2, 3], True]
 print("Елемент з індексом 1:", a_list[1])
-
 slice_a = a_list[1:4]
 print("Елементи 1-3:", slice_a)
 
